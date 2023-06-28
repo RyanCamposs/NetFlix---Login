@@ -1,0 +1,172 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+      
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./assets/background.jpg');
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    box-shadow: inset 100px 100px 700px  black;
+    padding: 0;
+    background-position:center;
+    max-width: calc(100% - 3rem);
+    max-height: calc(100% - 3rem);
+   
+    
+
+    overflow-x: hidden;
+    
+    
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+   
+
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 100%;
+    color: white;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 60px 68px 40px;
+    
+}
+
+input {
+    background-color: rgb(39, 39, 39);
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    
+}
+
+button{
+    background-color: #e50914;
+    color: white;
+    font-weight: bold;
+    width: 316px;
+    height: 50px;
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    margin: 24px 0 12px;
+    cursor: pointer;
+    border: none;
+}
+
+nav img {
+    width: 200px;
+}
+
+form {
+    opacity: 100;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.new_here {
+    color:#8c8c8c;
+    font-weight:500;
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 61, 255)
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+div {
+    display: block;
+}
+
+.checkbox {
+    width: 15px;
+    margin: auto 2px;
+    color:#8c8c8c;
+}
+
+.help_options {
+    font-size: 12px;
+    display: flex;
+    color:#8c8c8c;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 300px;
+   
+    text-align: center;
+    min-width: 190px;
+    margin-top: 80px;
+    
+}
+
+.display_box {
+    display: flex;
+    color:#8c8c8c;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.footer h3 {
+    color:#8c8c8c;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.box {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.box a {
+    color:#8c8c8c;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.footer_title {
+    
+    margin: 0 0 30px;
+}
+
+.footer_content {
+    margin: 0 200px;
+}
