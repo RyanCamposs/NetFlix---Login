@@ -10,21 +10,17 @@ html, body {
 }
 
 body {
-    background: url('./assets/background.jpg');
     height: 100%;
-    width: 100vw;
+    width: 100%;
     margin: 0;
-    box-shadow: inset 100px 100px 700px  black;
-    padding: 0;
-    background-position:center;
-    max-width: calc(100% - 3rem);
-    max-height: calc(100% - 3rem);
-   
     
-
-    overflow-x: hidden;
-    
-    
+    padding: 0; 
+    overflow-x: hidden; 
+    background: url(assets/background.jpg);  
+    box-sizing: border-box;
+    object-fit:contain;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 
@@ -32,7 +28,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
    
    
 
@@ -41,7 +36,7 @@ main {
 
 .container {
     background-color: rgba(0, 0, 0, 0.74);
-    height: 100%;
+    height: 600px;
     color: white;
     width: 300px;
     display: flex;
@@ -66,6 +61,15 @@ input {
     
 }
 
+.overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 9999;
+}
+
 button{
     background-color: #e50914;
     color: white;
@@ -83,6 +87,7 @@ button{
 
 nav img {
     width: 200px;
+    margin-left: 55px;
 }
 
 form {
@@ -95,9 +100,20 @@ form {
 .new_here {
     color:#8c8c8c;
     font-weight:500;
-    margin-top: 80px;
+    
     padding: 30px 0;
+    font-size: 13px;
+    
 }
+
+.p_title {
+    font-size: 15px;
+}
+
+strong {
+    color: white;
+}
+
 
 a {
     text-decoration: none;
@@ -142,6 +158,7 @@ div {
     color:#8c8c8c;
     justify-content: space-between;
     padding: 50px 50px;
+    align-items: center;
 }
 .footer h3 {
     color:#8c8c8c;
